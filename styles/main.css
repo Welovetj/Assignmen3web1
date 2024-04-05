@@ -134,6 +134,10 @@ footer {
   flex-wrap: wrap;
 }
 
+#top{
+  background-color: #181717;
+}
+
 .container-links {
   display: flex;
   flex-direction: column;
