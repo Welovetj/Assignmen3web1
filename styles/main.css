@@ -138,6 +138,13 @@ footer {
   background-color: #181717;
 }
 
+#video {
+  border: 3px dashed black; /* Green border */
+  border-radius: 8px;        /* Rounded corners */
+  padding: 50px;             /* Some padding */
+             /* Space outside the border */
+}
+
 .container-links {
   display: flex;
   flex-direction: column;
@@ -318,4 +325,82 @@ p {
     .col-sm-4 {
         margin-bottom: 30px;
     }
+}
+
+.navigation-resume{
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 10px;
+}
+.navigation-resume a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation-resume a:hover {
+  background-color: white;
+  color: black;
+}
+
+.navigation-bio {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 10px;
+}
+
+.navigation-bio a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation-bio a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.submit, .clear {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  transform: scale(1.1); /* Expand the button */
+}
+
+.clear:hover {
+  background-color: #f44336; /* Red background */
+  color: white;
+  transform: scale(1.1); /* Expand the button */
 }
