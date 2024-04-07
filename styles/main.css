@@ -135,7 +135,7 @@ footer {
 }
 
 #top{
-  background-color: #181717;
+  background-color: bisque;
 }
 
 #video {
@@ -220,7 +220,7 @@ body.biography-page {  /* Target the body element with class */
 }
 
 #bio-container {
-  background-color: green;
+  background-color: bisque;
   padding: 50px;
   color: black;
   text-align: center;
@@ -330,15 +330,15 @@ p {
 .navigation-resume{
   display: flex;
   justify-content: space-around;
-  border: 2px solid white;
+  border: 2px solid black;
   padding: 10px;
   margin: 10px;
 }
 .navigation-resume a {
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 5px 10px;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
 }
